@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans',sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url("pic.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%
+}
+.logo{
+    color: rgb(36, 93, 139);
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor:pointer;
+}
+span{
+    color: #40326d;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+
+}
+nav ul li a{
+    color: rgb(145, 34, 117);
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+nav ul li a:hover{
+    color: #f9004d;
+    transition: .4s;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left:8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: rgb(4, 4, 126);
+    font-size: 75px;
+    margin: 20px 0px 20px;
+}
+h3{
+    color: rgba(36, 50, 91, 0.521);
+    font-size: 25px;
+    margin-bottom: 50px;
+    
+}
+h4{
+    color: rgba(83, 168, 204, 0.8);
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background: #b2a5a5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justd-content: center;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line height: 26px;
+}
+.social{
+    display: flex;
+
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f9004d;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
